@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0;
+}
+/*HEADER*/
+
+header{
+    width:100%;
+    display:flex; 
+    justify-content: space-around;
+    align-items:center;
+    border-top: 10px solid #D1963F;
+    background-color: #474444;
+}
+
+h1{
+    padding: 8px 16px;
+    color:#D9D9D9;
+    font-family: 'Kolker Brush';
+    font-weight: 100;
+    font-size:96px;
+}
+
+/*NAV BAR*/
+
+nav{
+    width:60%;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#D1963F;
+    font-size: 28px;
+    font-family: 'Wittgenstein';
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color:#836635;
+}
+
+section:nth-child(2) ul li a::after{
+    content: '';
+    width: 20px;
+    height:30px;
+    background-image: url(img/Group\ 75.svg);  
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left:15px;
+}
+
+.menu{
+   color:#D9D9D9;
+   background-color:#D1963F;
+   padding: 8px 16px;
+   border-radius: 16px;
+}
+
+/*END OF NAV BAR*/
+
+
+/*TABS*/
+
+section:nth-child(2){
+    background-color: black;
+    padding:20px;
+}
+
+section:nth-child(2) ul{
+    list-style: none;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section:nth-child(2) ul li{
+    font-size: 24px;
+    font-family: 'Wittgenstein';
+}
+
+section:nth-child(2) ul li a{
+    text-decoration: none;
+    color:#D9D9D9;
+    transition: color 0.3s ease;
+}
+
+section:nth-child(2) ul li img{
+    padding: 10px 0px;
+}
+
+section:nth-child(2) ul li a:hover{
+    color:#836635;
+}
+
+section:nth-child(2) ul li:nth-child(5) > a::after{ background-image: none;}
+
