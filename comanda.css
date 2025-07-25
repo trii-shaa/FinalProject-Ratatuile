@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    align-self: center;
 }
+
+/*HEADER*/
+
 header{
     width:100%;
     display:flex; 
@@ -15,7 +20,7 @@ header{
     background-color: #474444;
 }
 
-h1{
+header h1{
     padding: 8px 16px;
     color:#D9D9D9;
     font-family: 'Kolker Brush';
@@ -49,8 +54,6 @@ nav ul li a:hover{
     color:#836635;
 }
 
-/*TABS*/
-
 section:nth-child(2) ul li a::after{
     content: '';
     width: 20px;
@@ -70,6 +73,7 @@ section:nth-child(2) ul li a::after{
 }
 
 /*END OF NAV BAR*/
+
 
 /*TABS*/
 
@@ -109,20 +113,211 @@ section:nth-child(2) ul li:nth-child(5) > a::after{
     background-image: none;}
 
 /*END OF TABS*/
-.fs-section{
+
+body{
+    align-self: center;
+    background-color: #ccc8bd ;
+}
+
+.container{
+    width:1216px;
+    margin:auto;
+}
+
+.food{
+    width:565px;
+    height:212px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food img{
+    width: 214px;
+    height:212px;
+}
+
+.info-produs{
+    width: 295px;
+    height:166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info-produs p, h2{
+    text-align: center;
+}
+
+.food button{
+    width:55px;
+    height:55px;
+    border-radius: 10px;
+    border:none;
+}
+
+.food button img{
+    width:55px;
+    height: 55px;
+    transition: color 0.3s ease;
+}
+
+.buttons{
+    width:295px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter";
+}
+button{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Wittgenstein";
+    background-color: #C5AC81;
+}
+
+button:hover{
+    background-color: #bca06f;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Yeseva One";
+    font-weight: 400;
+}
+
+.buttons > button:nth-child(4){
+   background: linear-gradient(0deg, #D69941, #D69941),
+linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 100px;     
+}
+
+.Comanda1 img{
+    width: 85px;
+    height: 65px;
+}
+
+.Comanda1{
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 1216px;
-    margin: 120px;
 }
-.fs-section h2{
+
+.comanda{
+    width: 503px;
+    height: 469px;
+}
+
+hr{
+    width: 368px;
+    border: 2;
+    margin-left: 114px;
+    
+}
+
+
+.produse{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;  
+    padding: 0 16px; 
+    gap: 32px;  
+
+}
+
+.element{
+    width: 609px;
+
+}
+
+.element p{
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.start{
+    display: flex;
+    flex-direction: row;
+}
+
+.start img{
+    margin: 26px 250px 125px 344px;
+}
+
+.start h1{
+    text-align: center;
     font-size: 64px;
-    font-family: 'Yeseva One';
-    font-weight:100;
-    margin-left:
+    margin-top: 32px;
+    font-family:'yeseva one';
+    font-weight: 100;
 }
+
+.Comanda1 input{
+    margin-left: 28px;
+}
+.comanda hr{
+    margin-left: 114px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.Comanda1 input{
+    background-color: #ccc8bd;
+    border: none;
+}
+
+.comentarii p{
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 127px;
+}
+
+.comentarii input{
+    border-radius: 50px;
+    width: 386px;
+    height: 243px;
+    margin-left: 127px;
+    background-color: #ccc8bd;
+    border: 0.5 solid #474444;
+}
+
+
+.comentarii button{
+    border-radius: 10px;
+    width: 386px;
+    height: 66px;
+    margin-left: 127px;
+    background-color: #D1963F;
+    border: none;
+    transition: color 0.3s ease;
+}
+
+.comentarii button:hover{
+    color:#292828;
+    box-shadow: 0 4px 10px rgba(49, 49, 49, 0.3);
+    background-color: #836635;
+}
+
+
+
+/*FOOTER*/
 
 footer{
     width:auto;
