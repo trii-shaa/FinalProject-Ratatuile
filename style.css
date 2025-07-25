@@ -50,8 +50,6 @@ nav ul li a:hover{
     color:#836635;
 }
 
-/*TABS*/
-
 section:nth-child(2) ul li a::after{
     content: '';
     width: 20px;

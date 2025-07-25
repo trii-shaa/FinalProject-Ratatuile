@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 *{
     margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-/*HEADER*/
-
 header{
     width:100%;
     display:flex; 
@@ -50,6 +49,8 @@ nav ul li a:hover{
     color:#836635;
 }
 
+/*TABS*/
+
 section:nth-child(2) ul li a::after{
     content: '';
     width: 20px;
@@ -69,7 +70,6 @@ section:nth-child(2) ul li a::after{
 }
 
 /*END OF NAV BAR*/
-
 
 /*TABS*/
 
@@ -107,3 +107,120 @@ section:nth-child(2) ul li a:hover{
 
 section:nth-child(2) ul li:nth-child(5) > a::after{ 
     background-image: none;}
+
+/*END OF TABS*/
+.fs-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1216px;
+    margin: 120px;
+}
+.fs-section h2{
+    font-size: 64px;
+    font-family: 'Yeseva One';
+    font-weight:100;
+    margin-left:
+}
+
+footer{
+    width:auto;
+    height:395px;
+    background-color: black;
+    color:white;
+    padding:20px;
+    border-top-left-radius: 100% 40%;
+    border-top-right-radius: 100% 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo h4{
+    width: 200px;
+    height: 80px;
+    font-family: 'kolker brush';
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.logo img{
+    width:250px;
+    height:70px;
+    padding: 20px;
+    
+}
+
+.link{
+}
+
+.link h4{
+    font-size: 40px;
+    font-family: 'yeseva one';
+    text-align: center;
+}
+
+.link ul li{
+    max-width:497px;
+    font-size:20px;
+    font-family: 'wittgenstein';
+    list-style: none;
+    display: flex;
+}
+.link li a{
+    text-decoration:none;
+    color:#FFFFFF;
+    
+}
+.listalink {
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.listalink a::after{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background-image: url('img/Frame 42.svg');
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.contacts h4{
+    width:auto;
+    font-size:40px;
+    font-family: 'yeseva one';
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contacts .txt{
+    width: auto;
+    font-size: 24px;
+    font-family: 'Wittgenstein';
+    font-weight: 100;
+}
+
+.contacts li{
+    list-style: none;
+    font-size: 30px;
+    font-family: 'yeseva one';
+
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    
+}
