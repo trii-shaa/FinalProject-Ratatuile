@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Kolker+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
 
 *{
     margin:0;
@@ -107,67 +107,3 @@ section:nth-child(2) ul li a:hover{
 
 section:nth-child(2) ul li:nth-child(5) > a::after{ 
     background-image: none;}
-
-/*END OF TABS*/
-
-/*MENU*/
-body{
-    background-color: #FFFAEC;
-}
-
-.arome-clasice{
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 100px 200px;
-    gap:30px;
-}
-
-.numele h2{
-    font-family: 'Yeseva one';
-    font-size: 64px;
-    font-weight:100;
-    margin:0;
-    padding: 120px 120px;
-}
-
-.patrat1{
-    max-width: 600px;
-    font-family:'wittgenstein';
-    padding: 25px;
-    border-left: 4px solid #606060;
-}
-
-.patrat1 .pret{
-    float: right;
-    display: inline;
-    align-items: start;
-}
-
-
-
-.patrat1 p{
-    flex-wrap: wrap; /*text wrap*/
-}
-
-.patrat1 span{
-    font-weight: bold;
-}
-.img-bttn{
-    display: flex;
-    align-items: end;
-}
-.img-bttn img{
-    padding:20px;
-
-}
-.img-bttn button{
-    color:#FFFFFF;
-   background-color:#D1963F;
-   padding: 8px 16px;
-   border-radius: 16px;
-   text-decoration: none;
-   text-wrap: nowrap;
-   border:0;
-}
-
