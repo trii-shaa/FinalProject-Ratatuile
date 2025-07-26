@@ -236,7 +236,7 @@ hr{
     max-width: 1216px;
     margin: 0 auto;  
     padding: 0 16px; 
-    gap: 32px;  
+    gap: 40px;  
 
 }
 
@@ -253,18 +253,19 @@ hr{
 .start{
     display: flex;
     flex-direction: row;
+    vertical-align: middle;
 }
 
 .start img{
-    margin: 26px 250px 125px 344px;
+    margin: 101px 250px 125px 344px;
 }
 
 .start h1{
-    text-align: center;
     font-size: 64px;
-    margin-top: 32px;
     font-family:'yeseva one';
-    font-weight: 100;
+    font-weight: 100;  
+    margin-left: 210px;
+    margin-bottom: 25px;
 }
 
 .Comanda1 input{

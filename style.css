@@ -157,7 +157,11 @@ body{
     justify-content: space-between;
 }
 
-
+.info2{
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: space-between;
+}
 
 .patrat1 p{
     width:347px;
@@ -200,40 +204,19 @@ body{
 
 /*Stanga*/
 
-.patrat2 h2{
+.patrat1 h2{
     font-size: 40px;
     font-family: 'yeseva one';
     font-weight:100;
 }
 
-.patrat2{
-    width:568px;
-    font-family:'wittgenstein';
-    padding: 0 0 0 25px;
-    border-left: 4px solid #606060;
-    height:503px;       
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height:auto;
-}
-
-.patrat2 p{
+.patrat1 p{
     width:347px;
     font-family:'wittgenstein';
     font-size: 18px;
 }
 
-.patrat2 span{
-    font-weight: bold;
-    font-size: 18px;
-}
 
-.info2{
-    display: flex;
-    flex-direction: row-reverse ;
-    justify-content: space-between;
-}
 .arome-clasice2{
     display:flex;
     justify-content: space-between;
